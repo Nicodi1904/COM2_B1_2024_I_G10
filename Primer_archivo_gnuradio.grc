@@ -55,18 +55,6 @@ blocks:
     rotation: 0
     state: true
 - name: frequency
-  id: variable
-  parameters:
-    comment: ''
-    value: samp_rate/3
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [304, 12.0]
-    rotation: 0
-    state: disabled
-- name: frequency
   id: variable_qtgui_range
   parameters:
     comment: ''
@@ -84,7 +72,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [432, 12.0]
+    coordinate: [392, 12.0]
     rotation: 0
     state: true
 - name: samp_rate
@@ -113,12 +101,12 @@ blocks:
     phase: '0'
     samp_rate: samp_rate
     type: float
-    waveform: analog.GR_SQR_WAVE
+    waveform: analog.GR_TRI_WAVE
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [192, 236.0]
+    coordinate: [232, 260.0]
     rotation: 0
     state: true
 - name: blocks_throttle_0
@@ -137,7 +125,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [472, 276.0]
+    coordinate: [624, 300.0]
     rotation: 0
     state: true
 - name: qtgui_freq_sink_x_0
@@ -218,7 +206,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [712, 364.0]
+    coordinate: [904, 396.0]
     rotation: 0
     state: true
 - name: qtgui_time_sink_x_0
@@ -315,7 +303,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [712, 164.0]
+    coordinate: [928, 164.0]
     rotation: 0
     state: true
 
